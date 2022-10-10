@@ -1,0 +1,57 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+    </style>
+</head>
+<body>
+    @if (IsSectionDefined("MessageBox"))
+    {
+        @RenderSection("MessageBox")
+    }
+    else
+    {
+        <div class="alert alert-primary text-center m-0">
+            Welcome!
+        </div>
+    }
+
+
+    @await Html.PartialAsync("~/Views/Shared/_navbar.cshtml")
+    @await Html.PartialAsync("~/Views/Shared/_header.cshtml")
+    <main>
+        <div class="container">
+            @if (IsSectionDefined("Categories"))
+            {
+                <div class="row">
+                    <div class="col-md-3">
+                        @RenderSection("Categories", false)
+                    </div>
+                    <div class="col-md-9">
+                        @RenderBody()
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col-md-12">
+                        @RenderBody()
+                    </div>
+                </div>
+            }
+
+
+
+
+        </div>
+    </main>
+
+    @RenderSection("Scripts", false)
+</body>
+</html>
