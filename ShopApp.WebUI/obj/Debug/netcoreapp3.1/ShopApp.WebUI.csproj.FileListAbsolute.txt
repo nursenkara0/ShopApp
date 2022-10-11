@@ -118,3 +118,5 @@ C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\R
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout2.cshtml.g.cs
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\package.json
