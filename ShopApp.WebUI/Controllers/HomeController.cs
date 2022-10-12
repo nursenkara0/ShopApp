@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ShopApp.WebUI.Data;
 using ShopApp.WebUI.Models;
 using ShopApp.WebUI.ViewModels;
 using System;
@@ -12,14 +13,10 @@ namespace ShopApp.WebUI.Controllers
     {
         public IActionResult Index()
         {
-            var products = new List<Product>()
-            {
-                new Product{Name="Iphone 8",Price=3000,Description="İyi telefon",IsApproved=true},
-                new Product{Name="Iphone x", Price= 6000, Description= "Çok iyi telefon"}
-            };
+            
             var productViewModel = new ProductViewModel()
             {
-                Products = products,
+                Products = ProductRepository.Products,
             };
             return View(productViewModel);
         }

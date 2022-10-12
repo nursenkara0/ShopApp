@@ -1,9 +1,9 @@
 ﻿@model ShopApp.WebUI.Models.Product
 <div class="card">
-    <img class="card-img-top" src="~/img/img1.webp" alt="" />
+    <img class="card-img-top" src="~/img/@Model.ImageUrl" alt="" />
     <div class="card-body">
         <h5 class="card-title">@Model.Name</h5>
         <p class="card-text">@Model.Description</p>
-        <a href="" class="btn btn-primary">İncele</a>
+        <a href="/product/details/@Model.ProductId" class="btn btn-primary">İncele</a>
     </div>
 </div>

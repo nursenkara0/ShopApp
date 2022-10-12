@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ShopApp.WebUI.Data;
 using ShopApp.WebUI.Models;
 using ShopApp.WebUI.ViewModels;
 using System;
@@ -22,16 +23,17 @@ namespace ShopApp.WebUI.Controllers
             ViewData["Category"] = "Telefonlar";
             return View();
         }
-        public IActionResult List()
+        public IActionResult List(int? id, string q)
         {
-            var products = new List<Product>()
+            var products = ProductRepository.Products;
+            if (id!=null)
             {
-                new Product{Name="Iphone 8",Price=3000,Description="İyi telefon",IsApproved=true},
-                new Product{Name="Iphone x", Price= 6000, Description= "Çok iyi telefon"}
-            };
-
-
-           
+                products = products.Where(p => p.CategoryId == id).ToList();
+            }
+            if (!string.IsNullOrEmpty(q))
+            {
+                products = products.Where(i => i.Name.ToLower().Contains(q.ToLower()) || i.Description.ToLower().Contains(q.ToLower())).ToList();
+            }
             var productViewModel = new ProductViewModel()
             {
                 Products = products,
@@ -40,14 +42,8 @@ namespace ShopApp.WebUI.Controllers
         }
         public IActionResult Details(int id)
         {
-            //ViewBag.Name = "samsung s6";
-            //ViewBag.Price = 3000;
-            //ViewBag.Description = "İyi telefon";
-            var product = new Product();
-            product.Name = "Samsung s22";
-            product.Price = 22000;
-            product.Description = "İyi telefon";
-            return View(product);
+
+            return View(ProductRepository.GetProductById(id));
         }
     }
 }

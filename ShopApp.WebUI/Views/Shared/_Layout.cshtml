@@ -25,7 +25,7 @@
 
     @await Html.PartialAsync("~/Views/Shared/_navbar.cshtml")
     @await Html.PartialAsync("~/Views/Shared/_header.cshtml")
-    <main>
+    <main class="mb-3">
         <div class="container">
             @if (IsSectionDefined("Categories"))
             {
@@ -52,6 +52,9 @@
 
         </div>
     </main>
+    <footer class="py-5 bg-dark text-white text-center">
+        Shop App 2022
+    </footer>
 
     @RenderSection("Scripts", false)
 </body>
