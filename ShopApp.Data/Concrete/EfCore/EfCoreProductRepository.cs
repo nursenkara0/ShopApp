@@ -4,13 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ShopApp.Data.Concrete.SQL
+namespace ShopApp.Data.Concrete.EfCore
 {
-    public class SQLProductRepository : IProductRepository
+    public class EfCoreProductRepository : IProductRepository
     {
+        private ShopContext db = new ShopContext();
         public void Create(Product entity)
         {
-            throw new NotImplementedException();
+            db.Products.Add(entity);
+            db.SaveChanges();
         }
 
         public void Delete(int id)
@@ -24,6 +26,11 @@ namespace ShopApp.Data.Concrete.SQL
         }
 
         public Product GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetPopularProducts()
         {
             throw new NotImplementedException();
         }

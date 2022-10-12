@@ -5,13 +5,8 @@ using System.Text;
 
 namespace ShopApp.Data.Abstract
 {
-    public interface ICategoryRepository
+    public interface ICategoryRepository:IRepository<Category>
     {
-        Category GetById(int id);
-        List<Category> GetAll();
-        void Create(Category entity);
-        void Update(Category entity);
-        void Delete(int id);
-
+        List<Category> GetPopularCategories();
     }
 }
