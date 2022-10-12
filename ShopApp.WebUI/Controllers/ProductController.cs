@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopApp.WebUI.Data;
 using ShopApp.WebUI.Models;
 using ShopApp.WebUI.ViewModels;
@@ -45,5 +46,44 @@ namespace ShopApp.WebUI.Controllers
 
             return View(ProductRepository.GetProductById(id));
         }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories,"CategoryId","Name");
+            return View(new Product());
+        }
+
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                ProductRepository.AddProduct(product);
+                return RedirectToAction("list");
+            }
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories, "CategoryId", "Name");
+            return View(product);
+           
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories, "CategoryId", "Name");
+            return View(ProductRepository.GetProductById(id));
+        }
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            ProductRepository.EditProduct(product);
+            return RedirectToAction("list");
+        }
+        [HttpPost]
+        public IActionResult Delete(int ProductId)
+        {
+            ProductRepository.DeleteProduct(ProductId);
+            return RedirectToAction("list");
+        }
+
     }
 }

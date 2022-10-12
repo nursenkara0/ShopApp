@@ -24,8 +24,10 @@
 
 
     @await Html.PartialAsync("~/Views/Shared/_navbar.cshtml")
-    @await Html.PartialAsync("~/Views/Shared/_header.cshtml")
-    <main class="mb-3">
+
+    @RenderSection("Header", false)
+
+    <main class="my-3">
         <div class="container">
             @if (IsSectionDefined("Categories"))
             {

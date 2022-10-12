@@ -120,3 +120,5 @@ C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\p
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\package.json
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_product.cshtml.g.cs
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.csproj.AssemblyReference.cache
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
