@@ -11,3 +11,6 @@ C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\obj\Debug\netcoreapp3.1\Sh
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\obj\Debug\netcoreapp3.1\ShopApp.Data.csproj.CopyComplete
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\obj\Debug\netcoreapp3.1\ShopApp.Data.dll
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\obj\Debug\netcoreapp3.1\ShopApp.Data.pdb
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\bin\Debug\netcoreapp3.1\ShopApp.Data.runtimeconfig.json
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\bin\Debug\netcoreapp3.1\ShopApp.Data.runtimeconfig.dev.json
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Data\obj\Debug\netcoreapp3.1\ShopApp.Data.genruntimeconfig.cache

@@ -13,7 +13,14 @@ namespace ShopApp.Data.Concrete.EfCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
-            dbContextOptionsBuilder.UseSqlite("Data Source=shopDb");
+            dbContextOptionsBuilder.UseSqlServer(@"Server=intern-db.cjq6i1xxy6zz.eu-central-1.rds.amazonaws.com;Database=ShopApp;Uid=sa;Password=VKynM2xF5P9SLFpdHAJk144X0OyyMTFq7fXu9Vw3tBVXeHYY8S");
+        }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ProductCategory>()
+                .HasKey(p => new { p.CategoryId, p.ProductId });
         }
     }
 }

@@ -8,6 +8,7 @@ namespace ShopApp.Data.Abstract
     public interface IProductRepository:IRepository<Product>
     {
         List<Product> GetPopularProducts();
+        List<Product> GetTop5Products();
 
     }
 }

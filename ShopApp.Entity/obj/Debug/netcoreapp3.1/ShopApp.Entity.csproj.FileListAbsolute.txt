@@ -1,7 +1,6 @@
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\bin\Debug\netcoreapp3.1\ShopApp.Entity.deps.json
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\bin\Debug\netcoreapp3.1\ShopApp.Entity.dll
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\bin\Debug\netcoreapp3.1\ShopApp.Entity.pdb
-C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\obj\Debug\netcoreapp3.1\ShopApp.Entity.csproj.AssemblyReference.cache
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\obj\Debug\netcoreapp3.1\ShopApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\obj\Debug\netcoreapp3.1\ShopApp.Entity.AssemblyInfoInputs.cache
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Entity\obj\Debug\netcoreapp3.1\ShopApp.Entity.AssemblyInfo.cs
