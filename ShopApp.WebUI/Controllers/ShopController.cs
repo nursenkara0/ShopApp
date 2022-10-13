@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ShopApp.Business.Abstract;
+using ShopApp.Entity;
 using ShopApp.WebUI.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,20 @@ namespace ShopApp.WebUI.Controllers
                 Products = _productService.GetAll()
             };
             return View(productViewModel);
+        }
+
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Product product = _productService.GetById((int)id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
     }
 }

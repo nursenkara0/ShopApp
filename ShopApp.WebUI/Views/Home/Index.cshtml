@@ -6,32 +6,22 @@
 
 
 
-
-@if (Model.Products.Count == 0)
-{
-    @await Html.PartialAsync("~/Views/Shared/_noproduct.cshtml")
-
-}
-else
-{
-    <div class="row">
-
-
-
-        @foreach (var product in Model.Products)
-        {
-
-            <div class="col-md-3">
-                @await Html.PartialAsync("~/Views/Shared/_product.cshtml", product)
-            </div>
-
-
-
-
-        }
+<div class="row">
+    <div class="col-md-3">
+        @await Component.InvokeAsync("Categories")
     </div>
+    <div class="col-md-9">
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-md-4">
+                    @await Html.PartialAsync("~/Views/Shared/_product.cshtml", product)
+                </div>
+            }
+        </div>
+    </div>
+</div>
 
-}
 
 
 @section Scripts

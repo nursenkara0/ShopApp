@@ -29,6 +29,10 @@ namespace ShopApp.WebUI
         {
             services.AddScoped<IProductRepository, EfCoreProductRepository>();
             services.AddScoped<IProductService, ProductManager>();
+
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
+
             services.AddControllersWithViews();
         }
 

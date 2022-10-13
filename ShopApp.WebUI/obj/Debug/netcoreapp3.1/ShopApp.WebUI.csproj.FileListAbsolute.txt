@@ -181,3 +181,4 @@ C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\r
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\ShopApp.Business.dll
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\ShopApp.Business.pdb
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shop\List.cshtml.g.cs
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Details.cshtml.g.cs
