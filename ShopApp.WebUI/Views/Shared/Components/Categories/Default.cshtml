@@ -1,12 +1,14 @@
-﻿@model List<Category>
+﻿
 
 <div class="list-group">
     <a href="/Product/List" class="list-group-item list-group-item-action">Tüm Kategoriler</a>
-    @foreach (var category in Model)
+    <a href="/Product/List" class="list-group-item list-group-item-action">Telefon</a>
+    <a href="/Product/List" class="list-group-item list-group-item-action">Bilgisayar</a>
+    @*@foreach (var category in Model)
     {
         <a href="/Product/List/@category.CategoryId"
            class="list-group-item list-group-item-action @(ViewBag.SelectedCategory == category.CategoryId.ToString() ? "active":"")">
             @category.Name
         </a>
-    }
+    }*@
 </div>

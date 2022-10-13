@@ -4,50 +4,27 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>List</title>
+    <title>ShopApp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="~/css/style.css">
     <style>
     </style>
 </head>
 <body>
-    @if (IsSectionDefined("MessageBox"))
-    {
-        @RenderSection("MessageBox")
-    }
-    else
-    {
-        <div class="alert alert-primary text-center m-0">
-            Welcome!
-        </div>
-    }
+
 
 
     @await Html.PartialAsync("~/Views/Shared/_navbar.cshtml")
 
-    @RenderSection("Header", false)
 
     <main class="my-3">
         <div class="container">
-            @if (IsSectionDefined("Categories"))
-            {
-                <div class="row">
-                    <div class="col-md-3">
-                        @RenderSection("Categories", false)
-                    </div>
-                    <div class="col-md-9">
-                        @RenderBody()
-                    </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    @RenderBody()
                 </div>
-            }
-            else
-            {
-                <div class="row">
-                    <div class="col-md-12">
-                        @RenderBody()
-                    </div>
-                </div>
-            }
+            </div>
 
 
 
@@ -57,7 +34,7 @@
     <footer class="py-5 bg-dark text-white text-center">
         Shop App 2022
     </footer>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-5/css/all.css" integrity="sha512-hfVul4ZiNO3U3dM4bwj4/dse2gq0mYM/zIIard7e9dc6raAJ3AEvskqwTWqCCORShcoFh+N1GUbgxoDb2ytuow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     @RenderSection("Scripts", false)
 </body>
 </html>

@@ -178,3 +178,6 @@ C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\r
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\ShopApp.Business.pdb
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shop\List.cshtml.g.cs

@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp.WebUI", "ShopApp.WebUI\ShopApp.WebUI.csproj", "{E3297F9D-E6BF-44B6-B496-1A286B20F632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.Entity", "ShopApp.Entity\ShopApp.Entity.csproj", "{3E9397FC-708D-4178-85C3-7F90888BF44A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp.Entity", "ShopApp.Entity\ShopApp.Entity.csproj", "{3E9397FC-708D-4178-85C3-7F90888BF44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.Data", "ShopApp.Data\ShopApp.Data.csproj", "{2D4E5A16-E0E5-49A1-BBFF-A95FDBEBA533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp.Data", "ShopApp.Data\ShopApp.Data.csproj", "{2D4E5A16-E0E5-49A1-BBFF-A95FDBEBA533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.Business", "ShopApp.Business\ShopApp.Business.csproj", "{BD903591-5069-40E7-892B-D423BE48E4A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2D4E5A16-E0E5-49A1-BBFF-A95FDBEBA533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D4E5A16-E0E5-49A1-BBFF-A95FDBEBA533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D4E5A16-E0E5-49A1-BBFF-A95FDBEBA533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD903591-5069-40E7-892B-D423BE48E4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD903591-5069-40E7-892B-D423BE48E4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD903591-5069-40E7-892B-D423BE48E4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD903591-5069-40E7-892B-D423BE48E4A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

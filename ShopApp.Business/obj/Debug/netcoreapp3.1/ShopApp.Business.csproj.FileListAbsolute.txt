@@ -1,0 +1,15 @@
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.deps.json
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.pdb
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Data.dll
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Entity.dll
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Data.pdb
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Entity.pdb
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.AssemblyReference.cache
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.AssemblyInfo.cs
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CopyComplete
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\nur.senkara\Desktop\Nur\ShopApp\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.pdb
